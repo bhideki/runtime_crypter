@@ -9,4 +9,5 @@ python runtime_crypter_amsi_bypass <caminho_do_payload> <caminho_do_stub_de_said
 pyinstaller --noconsole --onefile output.py
 ### Requeriments
 pyinstaller
+
 pycryptodome
