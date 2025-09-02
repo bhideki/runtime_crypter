@@ -27,13 +27,13 @@ python runtime_crypter_amsi_bypass <payload_path> <output_stub_path>
 
 <output_stub_path> → Desired path for the generated stub/executable
 
-#Notes
+# Notes
 
 Only raw executable files (.bin) are supported as payloads.
 
 The AMSI Bypass version is based on the implementation in d0rb/AMSI-Bypass.
 
-#Compile
+# Compile
 
 After generating the stub script (output.py), compile it into a standalone executable using PyInstaller:
 ```bash
@@ -53,7 +53,7 @@ Install them with pip:
 pip install pyinstaller pycryptodome
 ```
 
-#Credits
+# Credits
 
 AMSI Bypass implementation referenced from: [d0rb/AMSI-Bypass](https://github.com/d0rb/AMSI-Bypass)
 
