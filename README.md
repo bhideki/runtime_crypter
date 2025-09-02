@@ -39,7 +39,7 @@ After generating the stub script (output.py), compile it into a standalone execu
 ```bash
 pyinstaller --noconsole --onefile output.py
 ```
-#Requirements
+# Requirements
 
 Make sure the following dependencies are installed:
 
