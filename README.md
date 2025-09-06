@@ -31,7 +31,7 @@ python runtime_crypter_amsi_bypass <payload_path> <output_stub_path>
 
 Only raw executable files (.bin) are supported as payloads.
 
-The AMSI Bypass version is based on the implementation in d0rb/AMSI-Bypass.
+The AMSI Bypass version is based on the implementation in [d0rb/AMSI-Bypass.](https://github.com/d0rb/AMSI-Bypass)
 
 # Compile
 
@@ -43,9 +43,9 @@ pyinstaller --noconsole --onefile output.py
 
 Make sure the following dependencies are installed:
 
-pyinstaller
+-pyinstaller
 
-pycryptodome
+-pycryptodome
 
 Install them with pip:
 
